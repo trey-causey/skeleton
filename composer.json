@@ -4,6 +4,13 @@
     "description": "Standard for PHP package skeletons.",
     "homepage": "https://github.com/php-pds/skeleton",
     "license": "CC-BY-SA-4.0",
+    "require": {
+        "guzzlehttp/guzzle": "^6.5",
+        "twbs/bootstrap": "4.5.0",
+        "phpunit/phpunit": "^8.5",
+        "ext-json": "*",
+        "ext-pdo": "*"
+    },
     "autoload": {
         "psr-4": {
             "Pds\\Skeleton\\": "src/"
